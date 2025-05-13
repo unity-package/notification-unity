@@ -25,11 +25,11 @@ Support scheduling local one-time or repeatable notifications for Unity games (A
 ### Add the line below to `Packages/manifest.json`
 
 for version `1.0.0`
-```csharp
+```json
 "com.wolf-org.notifications":"https://github.com/unity-package/notification-unity.git#1.0.0",
 ```
 dependency `com.unity.mobile.notifications-2.3.2` and `com.cysharp.unitask-2.5.5`
-```csharp
+```json
 "com.unity.mobile.notifications": "2.3.2",
 "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.5",
 ```
